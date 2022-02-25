@@ -1,0 +1,74 @@
+.container{
+    margin-left: 50px;
+    height: 1000px;
+    background-image:url(../img/Nentrangchu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: -500px;
+}
+.container h1{
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+    font-family: pacifico;
+    
+}
+.container h2{
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    font-family: pacifico;
+    font-size: 50px;
+    
+}
+
+    
+.menu>ul{
+    list-style-type: none ;
+    background-color: rgba(79,71,78,1.0000000000);
+    width: fit-content;
+    height: 100%;
+    margin: 0px;
+    position:fixed;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+
+}
+.menu>ul>li{
+   width: auto;
+   height: 40px;
+   line-height: 40px;
+   padding: 20px 10px;
+}
+.menu>ul>li>a{
+    text-decoration: 2px inherit;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+.menu>ul>li>a:hover{
+    text-decoration: 3px underline orange;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+body{
+    background-repeat: no-repeat;
+}
+
+.glow {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px 	#FFA500, 0 0 40px 	#FFA500, 0 0 50px 	#FFA500, 0 0 60px 	#FFA500, 0 0 70px 	#FFA500;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #FF8C00, 0 0 40px #FF8C00, 0 0 50px 	#FF8C00, 0 0 60px 	#FF8C00, 0 0 70px 	#FF8C00, 0 0 80px 	#FF8C00;
+    }
+}

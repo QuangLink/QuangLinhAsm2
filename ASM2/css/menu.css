@@ -1,0 +1,83 @@
+
+.menu>ul{
+    list-style-type: none ;
+    background-color: rgba(79,71,78,1.0000000000);
+    width: fit-content;
+    height: 175%;
+    margin: 0px;
+    position:fixed;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+
+}
+.menu>ul>li{
+   width: auto;
+   height: 40px;
+   line-height: 40px;
+   padding: 20px 10px;
+}
+.menu>ul>li>a{
+    text-decoration: 2px inherit;
+    font-weight: bold;
+    color: white;
+    display: block;
+
+}
+.menu>ul>li>a:hover{
+    text-decoration: 3px underline orange;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+body h2{  
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+    color:  #F8D800;
+    text-decoration: underline;
+    text-shadow: 0 0 26px    #8B0000;
+    font-family: pacifico ;
+    
+}
+#menumon1{
+    height: 300px;
+    margin-left: 145px;
+    background-image:url(../img/Menumon-coffe.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+    
+}
+
+#menumon2{
+    height: 300px;
+    margin-left: 145px;
+    background-image:url(../img/bubble-tea-vectors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 160px;
+   
+}
+
+#menumon3{
+    height: 300px;
+    margin-left: 145px;
+    background-image:url(../img/menumon-nuocgiaikhat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menumon4{
+    height: 300px;
+    margin-left: 145px;
+    padding-right: 160px;
+    background-image:url(../img/sinhto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+   
+}

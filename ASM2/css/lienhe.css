@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(255,213,79,1.0000000000);
+    background-image: none;
+}
+.sdt{
+    height: 40px;
+    background-color: grey;
+    justify-content: center;
+}
+h1{
+    border-width: 5px;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    border-color: white;
+    box-sizing: border-box;
+}
+.map{
+    position: absolute;
+    width: 100%;
+    margin-left: 60px;
+    bottom: 0;
+} 
+ div .lienhe{
+     margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+   
+ }
+ #hinh{
+     margin: 100px 100px;
+ }
